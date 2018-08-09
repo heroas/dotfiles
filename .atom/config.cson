@@ -1,0 +1,29 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#282a36"
+      accentColor: "#514b27"
+      predefinedColor: "Green"
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+      stretchedTabs: true
+    ui:
+      panelShadows: true
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "vim-mode"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "503509d0-8077-45cd-9f23-ce721c15bf14"
+  "vim-mode-plus":
+    statusBarModeStringStyle: "long"
+  welcome:
+    showOnStartup: false

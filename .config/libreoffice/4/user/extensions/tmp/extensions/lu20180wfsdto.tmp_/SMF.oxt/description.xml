@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" 
+xmlns:d="http://openoffice.org/extensions/description/2006" 
+xmlns:xlink="http://www.w3.org/1999/xlink"> 
+
+<dependencies> 
+    <OpenOffice.org-minimal-version value="2.4" d:name="OpenOffice.org 2.4"/> 
+</dependencies> 
+
+<identifier value="com.smf.ticker.getinfo" /> 
+<version value="0.7.0" />
+<display-name><name lang="en">Stock Market Function Extension.</name></display-name>
+<publisher><name xlink:href="https://github.com/madsailor/SMF-Extension" lang="en">David Capron</name></publisher>
+
+</description> 

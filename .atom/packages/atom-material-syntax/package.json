@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+        "spec": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11863-16373-1k4eoli.gnsr553ik9"
+    ]
+  ],
+  "_from": "../d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+  "_id": "atom-material-syntax@1.0.8",
+  "_inCache": true,
+  "_location": "/atom-material-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+    "spec": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+  "_shasum": "7e8a52dc55a491cd3d4338cea7ad769fb436c13d",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11863-16373-1mjex68.6gtrj2a9k9/package.tgz",
+  "_where": "/tmp/apm-install-dir-11863-16373-1k4eoli.gnsr553ik9",
+  "bugs": {
+    "url": "https://github.com/silvestreh/atom-material-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A dark syntax theme for Atom that uses Google's Material Design color palette",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/silvestreh/atom-material-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "material",
+    "material design"
+  ],
+  "license": "MIT",
+  "name": "atom-material-syntax",
+  "optionalDependencies": {},
+  "readme": "![](http://i.imgur.com/f58FC9u.png)\n---\n\nA syntax theme for [Atom Material UI](https://github.com/silvestreh/atom-material-ui). Inspired by Mattia Astorino's [SublimeText theme](https://github.com/equinusocio/material-theme).\n\n![screenshot](http://i.imgur.com/3YQeDps.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvestreh/atom-material-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.8"
+}

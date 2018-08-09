@@ -1,0 +1,9 @@
+###### Progress log entry 2018-06-26 21:19:06 ######
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: com.loc.crypto.getinfo", Context = (com.sun.star.uno.XInterface) @55569b334f60 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: com.loc.crypto.getinfo", Context = (com.sun.star.uno.XInterface) @55569b334f60 } }, ArgumentPosition = (short) -1 }
+Copying: LOC.oxt
+###### Progress log entry 2018-06-26 21:23:59 ######
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: com.smf.ticker.getinfo", Context = (com.sun.star.uno.XInterface) @55971f961a10 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: com.smf.ticker.getinfo", Context = (com.sun.star.uno.XInterface) @55971f961a10 } }, ArgumentPosition = (short) -1 }
+Copying: SMF.oxt
+###### Progress log entry 2018-08-04 07:54:53 ######

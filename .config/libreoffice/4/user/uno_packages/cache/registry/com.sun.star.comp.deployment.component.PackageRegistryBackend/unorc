@@ -1,0 +1,3 @@
+ORIGIN=$UNO_USER_PACKAGES_CACHE/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+UNO_TYPES=?$UNO_USER_PACKAGES_CACHE/uno_packages/lu20180wfsdtp.tmp_/SMF.oxt/Xsmf.rdb ?$UNO_USER_PACKAGES_CACHE/uno_packages/lu18881wfm379.tmp_/LOC.oxt/LOC.rdb
+UNO_SERVICES=?$ORIGIN/common_.rdb ${$ORIGIN/${_OS}_${_ARCH}rc:UNO_SERVICES}
