@@ -12,9 +12,17 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 set laststatus=2
 Plugin 'scrooloose/nerdtree'
-Plugin 'junegunn/fzf.vim'
-Plugin 'junegunn/fzf'
+Plugin 'scrooloose/syntastic'
+Plugin 'kien/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+
+" Python plugins
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'nvie/vim-flake8'
+let python_highlight_all=1
+
 
 call vundle#end()
 filetype plugin indent on
@@ -30,6 +38,7 @@ let g:lightline = {
 
 map <C-n> :NERDTreeToggle<CR>
 highlight Visual cterm=reverse ctermbg=NONE
+syntax on
 
 "Disable arrowkeys ;:-)
 "if get(g:, 'elite_mode')
