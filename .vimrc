@@ -14,6 +14,7 @@ set laststatus=2
 Plugin 'scrooloose/nerdtree'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -21,24 +22,20 @@ filetype plugin indent on
 """""""""""""""""""""""""""""""""""""
 " Configuration Section
 " """""""""""""""""""""""""""""""""""""
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-x': 'split',
-  \ 'ctrl-v': 'vsplit' }
 
-" Default fzf layout
-" " - down / up / left / right
- let g:fzf_layout = { 'down': '~40%' }
-
-" " In Neovim, you can set up fzf window using a Vim command
- let g:fzf_layout = { 'window': 'enew' }
- let g:fzf_layout = { 'window': '-tabnew' }
- 
-
-"let g:lightline = {
-"      \ 'colorscheme': 'wombat',
-"      \ }
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
 
 
 map <C-n> :NERDTreeToggle<CR>
+highlight Visual cterm=reverse ctermbg=NONE
 
+"Disable arrowkeys ;:-)
+"if get(g:, 'elite_mode')
+"	nnoremap <Up>	:resize +2<CR>
+"	nnoremap <Down>	:resize -2<CR>
+"	nnoremap <Left>	:vertical resize +2<CR>
+"	nnoremap <Right> :vertical resize -2<CR>
+"endif
+	
